@@ -12,12 +12,12 @@ print(f"最高分是：{max(score)}")
 print(f"平均分是：{sum(score) // len(score)}")
 
 # 用字典存三个学生的姓名和分数，打印分数最高的学生  (ps:感觉我这个题写复杂了 应该有更好的办法)
-# students = {"student1":{"name":"张三","score":90},
+# students.json = {"student1":{"name":"张三","score":90},
 #             "student2":{"name": "李四","score": 80},
 #             "student3":{"name": "王五","score": 70}}
 # maxScore = 0
 # maxKey = ""
-# for k,v in students.items():
+# for k,v in students.json.items():
 #     if v["score"] > maxScore:
 #         maxScore = v["score"]
 #         maxKey = k

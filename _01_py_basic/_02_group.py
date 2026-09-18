@@ -15,14 +15,14 @@
 
 
 # 字典 dict 键值对的形式存储，键唯一
-# students = {'name':'张三','age':18,'city':'临汾'}
-# print(students["name"]) # 不存在返回0
-# students["score"] = 81 # 新增或修改值
-# del students['city'] # 删除该键对应的键值对
-# print(students.keys())  #所有key
-# print(students.values())  #所有value
-# print(students.items())  #所有键值对
-# for k,v in students.items():
+# students.json = {'name':'张三','age':18,'city':'临汾'}
+# print(students.json["name"]) # 不存在返回0
+# students.json["score"] = 81 # 新增或修改值
+# del students.json['city'] # 删除该键对应的键值对
+# print(students.json.keys())  #所有key
+# print(students.json.values())  #所有value
+# print(students.json.items())  #所有键值对
+# for k,v in students.json.items():
 #     print(k," => ",v)
 
 

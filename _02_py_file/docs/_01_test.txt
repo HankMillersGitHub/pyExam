@@ -1,0 +1,8 @@
+this is a test file to practice python file read_write operation
+this is second line
+this is tired line
+this is write words
+
+this is write words
+this is write words
+this is write words
