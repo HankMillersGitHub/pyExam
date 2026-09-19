@@ -11,7 +11,7 @@ students = ["张三","李四","王五","赵六"]
 
 # 同样的数据存储为csv
 import csv
-with open("./exam_docs/_03_json.csv","w",newline="",encoding="utf-8") as f:
+with open("exam_docs/_03_json.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(["name"])
     for student in students:

@@ -22,5 +22,5 @@
 # a           追加写
 # r+          读写
 # rb/wb       二进制读写
-with open("./docs/_01_test.txt","a",encoding="utf8") as f:
+with open("docs/_01_test.txt", "a", encoding="utf8") as f:
     f.write("this is write words\n")

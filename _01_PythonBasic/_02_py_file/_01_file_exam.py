@@ -5,7 +5,7 @@
 #
 # 把上题中的数字读取出来并且求和
 numbers = []
-with open("./exam_docs/_01_file_exam.txt", "r",encoding="utf8") as f:
+with open("exam_docs/_01_file_exam.txt", "r", encoding="utf8") as f:
     for line in f:
         numbers.append(int(line.strip()))
 print(sum(numbers))

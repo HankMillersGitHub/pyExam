@@ -17,11 +17,11 @@ def create_student():
     # 将新学生插入旧列表
     student_list.append(new_student_json)
     # 写文件
-    with open("./students.json","w",encoding="utf-8") as f:
+    with open("students.json", "w", encoding="utf-8") as f:
         json.dump(student_list,f,ensure_ascii=False,indent=2)
     return "添加成功"
 def read_student_list_from_json():
-    with open("./students.json","r") as f:
+    with open("students.json", "r") as f:
         student_json = json.loads(f.read())
         student_list = list(student_json)
         return student_list

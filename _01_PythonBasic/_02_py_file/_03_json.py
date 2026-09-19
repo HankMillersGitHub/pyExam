@@ -44,7 +44,7 @@ import csv
 #         writer.writerow(row)
 
 # 字典写入csv
-with open("./docs/_02_csv.csv","a",newline="",encoding="utf-8") as f:
+with open("docs/_02_csv.csv", "a", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f,fieldnames=["name","age"])
     #writer.writeheader()        # 专门用于写入表头的代码 运行一次就写入一次表头
     writer.writerow({"name":"张三","age":79})
